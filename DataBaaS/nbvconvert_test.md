@@ -8,14 +8,14 @@ alt.renderers.enable("mimetype");
 
 ```python
 df = data.iris()
-alt.Chart(df).encode(x="sepalLength", y="sepalWidth").mark_point()
+alt.Chart(df).encode(x="sepalLength", y="sepalWidth").mark_point().interactive()
 ```
 
 
 
 
     
-![png](nbvconvert_test_files/nbvconvert_test_1_0.png)
+![png](.attachments/nbvconvert_test_1_0.png)
     
 
 
