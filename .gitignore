@@ -1,3 +1,7 @@
+# General directories
 .ipynb_checkpoints
-.attachments
-DataBaas/gg_in_python_altair.md
+
+# Databaas
+DataBaas/*.md
+DataBaas/.attachments/*
+!DataBaas/.attachments/altair_header.png
